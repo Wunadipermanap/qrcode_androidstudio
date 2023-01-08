@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent geoIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(geoUri));
                 startActivity(geoIntent);
             }
+
             else {
                 try {
 
